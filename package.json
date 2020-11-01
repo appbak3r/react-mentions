@@ -1,6 +1,6 @@
 {
   "name": "@appbak3r/react-mentions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -17,6 +17,7 @@
     "start": "cross-env NODE_ENV=development webpack-dev-server --config demo/webpack.config.js",
     "semantic-release": "semantic-release",
     "test": "jest",
+    "prepublish": "npm run build",
     "now-build": "webpack --config demo/webpack.config.js"
   },
   "repository": {

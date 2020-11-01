@@ -1036,10 +1036,7 @@ const styled = defaultStyle(
     input: {
       display: "block",
       width: "100%",
-      position: "absolute",
       margin: 0,
-      top: 0,
-      left: 0,
       boxSizing: "border-box",
       backgroundColor: "transparent",
       fontFamily: "inherit",
