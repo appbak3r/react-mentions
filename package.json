@@ -1,6 +1,7 @@
 {
-  "name": "react-mentions",
+  "name": "react-mentions-ext",
   "version": "0.0.0-development",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "description": "React mentions input",
   "main": "dist/react-mentions.cjs.js",
   "module": "dist/react-mentions.esm.js",
